@@ -1,16 +1,21 @@
 {
   "expo": {
-    "name": "我的每日手帳",
-    "slug": "my-daily-journal",
-    "version": "2.0.0",
+    "name": "花栗鼠的手帳",
+    "slug": "chipmunk-journal",
+    "version": "2.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.mydailyjournal.app"
+      "bundleIdentifier": "com.mydailyjournal.app",
+      "icon": "./assets/icon.png"
     },
     "android": {
-      "package": "com.mydailyjournal.app"
+      "package": "com.mydailyjournal.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png"
+      }
     }
   }
 }
