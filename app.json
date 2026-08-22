@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "我的每日手帳",
+    "slug": "my-daily-journal",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mydailyjournal.app"
+    },
+    "android": {
+      "package": "com.mydailyjournal.app"
+    }
+  }
+}
